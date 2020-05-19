@@ -1,0 +1,12 @@
+<script src="https://cdn.bootcss.com/seajs/1.3.1/sea.min.js"></script>
+
+<script>
+seajs.use(["./dist/zs.js","./dist/ls.js"],function(zs,ls){
+    zs.Add() 
+    zs.List() 
+    ls.List()
+    ls.Add()
+    //ls.demo() 
+    console.log( ls.Title ) 
+})
+</script>
